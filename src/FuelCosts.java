@@ -12,7 +12,7 @@ public class FuelCosts {
 Scanner in = new Scanner(System.in);
 boolean done = false;
 do {
-   System.out.println("Enter Gallons in Tank: ");
+   System.out.print("Enter Gallons in Tank: ");
    if (in.hasNextDouble()) {
        gallonsInTank = in.nextDouble();
        in.nextLine();
@@ -25,7 +25,7 @@ do {
    }
 }while (!done);
 do {
-    System.out.println("Enter Miles per  Gallon: ");
+    System.out.print("Enter Miles per  Gallon: ");
     if (in.hasNextDouble()) {
         milesPerGallon = in.nextDouble();
         in.nextLine();
@@ -38,7 +38,7 @@ do {
     }
 } while (!done);
 do {
-    System.out.println("Enter Price of Gas: ");
+    System.out.print("Enter Price of Gas: ");
     if (in.hasNextDouble()) {
         priceOfGas = in.nextDouble();
         in.nextLine();
